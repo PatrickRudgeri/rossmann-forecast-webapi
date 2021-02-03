@@ -1,1 +1,3 @@
-# Rossmann Sales Forecast - Web API
+# Rossmann Sales Forecasting - Web API
+
+API do projeto de previsão de vendas.
