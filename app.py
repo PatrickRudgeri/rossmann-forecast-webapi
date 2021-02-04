@@ -8,10 +8,10 @@ root_path = ""
 app = Flask(__name__, template_folder=root_path + "templates")
 
 # Carregando modelo em memória apenas uma vez (quando a API iniciar)
-model_path = root_path + "models/XGBoost_model_2.pkl"
+model_path = root_path + "models/XGBoost_c1.pkl"
 
 model = joblib.load(model_path)
-    
+
 
 @app.route("/")
 def main():
